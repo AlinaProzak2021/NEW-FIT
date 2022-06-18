@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <homePage></homePage>
+    <aboutPl></aboutPl>
   </div>
 </template>
 <script>
-import homePage from './mainPage/HomePage.vue'
+ import aboutPl from './mainPage/blockcircle.vue'
 
 export default {
   name: "app",
   components: {
-    homePage
+     aboutPl
   },
 };
 </script>
